@@ -1,0 +1,19 @@
+{
+  "name": "learn-tdd-with-tape",
+  "version": "1.0.0",
+  "description": "Tdd exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jce-il/learn-tdd-with-tape"
+  },
+  "keywords": [
+    "tdd",
+    "tape",
+    "tutorial"
+  ],
+  "license": "MIT"
+}
