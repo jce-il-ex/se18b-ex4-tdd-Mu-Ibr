@@ -15,5 +15,8 @@
     "tape",
     "tutorial"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  }
 }
