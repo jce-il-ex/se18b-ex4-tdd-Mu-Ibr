@@ -7,3 +7,16 @@ test('calculateChange(215, 300) should return [50, 20, 10, 5]', function(t) {
   t.deepEqual(result, expected);
   t.end();
 });
+test('calculateChange(486, 600) should equal [100, 10, 2, 2]', function(t) {
+  var result = calculateChange(486, 600);
+  var expected = [100, 10, 2, 2];
+  t.deepEqual(result, expected);
+  t.end();
+});
+
+test('calculateChange(12, 400) should return [200, 100, 50, 20, 10, 5, 2, 1]', function(t) {
+  var result = calculateChange(12, 400);
+  var expected = [200, 100, 50, 20, 10, 5, 2, 1];
+  t.deepEqual(result, expected);
+  t.end();
+});
